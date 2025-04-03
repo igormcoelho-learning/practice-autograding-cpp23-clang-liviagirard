@@ -23,6 +23,6 @@ export int add(int a, int b)
 export int mul(int a, int b)
 {
     int result = a * b;
-    std::println("add({}, {}) = {}", a, b, result);
+    std::println("mul({}, {}) = {}", a, b, result);
     return result;
 }
